@@ -6,7 +6,7 @@ public class File1 {
         Random rand = new Random();
         File f = new File("passengers.txt");
         PrintWriter printer = new PrintWriter(f);
-        for (int i = 0; i < 201; i++) {
+        for (int i = 0; i < 210; i++) {
             int num = rand.nextInt(200,301);
             printer.write(Integer.toString(num));
             printer.write("\n");
